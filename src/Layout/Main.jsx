@@ -5,7 +5,10 @@ import Navbar from '../Pages/Navbar/Navbar';
 const Main = () => {
     return (
         <div>
-                <Navbar></Navbar>
+            <div className='m-6'>
+            <Navbar></Navbar>
+            </div>
+                
                 <Outlet></Outlet>
         </div>
     );
